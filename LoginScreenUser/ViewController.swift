@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
         print(FileManager.default.temporaryDirectory)//path show
         print(UserDefaults().dictionaryRepresentation().keys)//check database use this command
     }
